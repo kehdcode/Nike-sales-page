@@ -170,5 +170,15 @@
 .variant div:nth-child(5){
     background: purple;
 }
-
+.cart p {
+    display: inline;
+    margin-right: 10px;
+}
+.cart{
+    position: relative;
+}
+button {
+    position: relative;
+    margin: 10px 0 0 70px;
+}
 
