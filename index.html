@@ -25,7 +25,10 @@
             <div class="navbar-right">
                     <ul>
                             <li><a href="#">Search</a></li>
-                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Cart
+                                <sup id="cart"></sup>
+                        
+                            </a></li>
                             <li><a href="#">Checkout</a></li>
                         </ul>
             </div>
@@ -41,7 +44,7 @@
                         <h2>AIR MAX</h2>
                         <h3>270</h3>
                     </div>
-                    <img src="images/shoe.png" alt="" id="myImage" onmousedown="move()">
+                    <img src="images/shoe.png" alt="" id="myImage" onmousedown="move();">
             </div>
             <div class="content-right">
                 <div class="product-details">
@@ -67,8 +70,8 @@
                         
                     </div>
                     <div class="cart">
-                        <p>Quantity</p><input type="number"> 
-                        <button>Add To Cart</button>
+                        <p>Quantity</p><input type="number" id="quantity"> 
+                        <button onclick="calQuantity(event);">Add To Cart</button>
     
                     </div>
                 </div>
